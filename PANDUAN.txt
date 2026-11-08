@@ -1,0 +1,25 @@
+JUST FOR YOU - PANDUAN EDIT SENDIRI
+
+CARA MENGEDIT (tanpa coding)
+1. Foto  : taruh di folder foto/ dengan nama foto1.jpg ... foto8.jpg. Untuk mengubah tulisan di bawah foto, buka config.js.
+2. Musik : taruh lagu di folder musik/ dengan nama lagu.mp3.
+3. Teks  : buka config.js dengan Notepad/TextEdit. Ubah nama, isi surat, pesan penutup, caption. Simpan.
+   (Tulisan dalam tanda petik '...' yang diubah; jangan hapus tanda petik, koma, atau kurung.)
+4. Lihat hasil: klik dua kali index.html (musik/foto lokal bisa tampil di Chrome/Safari).
+
+CARA PUBLISH GRATIS (paling mudah)
+Opsi A - Netlify Drop: buka app.netlify.com/drop, seret SELURUH folder ini ke halaman itu. Anda dapat alamat publik (daftar akun gratis agar permanen).
+Opsi B - Cloudflare Pages / Vercel: unggah folder ini (Vercel: lewat GitHub, framework 'Other').
+Setiap kali edit, seret ulang folder yang sudah diperbarui. Alamat bisa dipertahankan lewat menu Deploys/Redeploy.
+
+QR CODE
+Alamat berubah dari versi sebelumnya, jadi QR perlu dibuat ulang. Kirim alamat barunya ke Claude, nanti QR bentuk hati dibuatkan.
+
+SURAT PENUTUP: isinya ada di config.js pada bagian finalLetter (satu baris = satu paragraf). Muncul saat tombol 'Satu Pesan Lagi' di akhir halaman ditekan.
+
+MEMAKAI VS CODE
+1. Buka VS Code > File > Open Folder > pilih folder just-for-you.
+2. Pasang ekstensi 'Live Server', klik kanan index.html > Open with Live Server.
+3. Edit config.js, simpan, browser otomatis menyegarkan.
+
+VIDEO: taruh file mp4 di folder video/, lalu tulis di config.js pada baris videos:[...]. Video tampil di bawah foto dengan bingkai polaroid. Musik latar otomatis berhenti saat video diputar dan lanjut lagi setelahnya.

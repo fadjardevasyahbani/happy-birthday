@@ -1,0 +1,3 @@
+Taruh video (mp4) di folder ini, lalu daftarkan di config.js:
+videos:['video/video1.mp4','video/video2.mp4']
+Saran: format mp4 (H.264), resolusi 720p, agar lancar di HP.
